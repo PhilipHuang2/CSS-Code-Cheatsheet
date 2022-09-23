@@ -19,5 +19,50 @@ header {
 }
 
 main {
+    display:flex;
+    flex-wrap: wrap;
+}
 
+.card {
+    border-style: dashed;
+    border-color: white;
+    padding: 20px;
+    margin: 10px 20px 10px 20px;
+}
+
+.card h2 {
+    border-style: dotted;
+    border-color: white;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.card p {
+    
+}
+
+.card code {
+    width:90%;
+    
+    background-color: var(white);
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
 }
