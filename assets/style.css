@@ -42,9 +42,12 @@ main {
     text-align: center;
 }
 
-/* .card p {
-    
-} */
+.card p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 12px;
+    text-align: center;
+}
 
 .card code pre {
     line-height: 24px;
