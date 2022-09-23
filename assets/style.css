@@ -30,7 +30,6 @@ main {
     border-style: dashed;
     border-color: var(--border-color);
     flex: 1 0 200px; 
-    
     padding: 20px;
   
     /* margin: 10px 20px 10px 20px; */
