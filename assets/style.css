@@ -10,7 +10,6 @@
     box-sizing: border-box;
     background-color: var(--background-color);
     font-family: 'Bungee Spice', cursive;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 header {   
@@ -22,18 +21,14 @@ main {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* align-items: stretch; */
     gap: 50px;
+    
 }
 
 .card { 
     border-style: dashed;
+    width: 100%;
     border-color: var(--border-color);
-    /* flex: 1 0 200px; 
-    
-    padding: 20px; */
-  
-    /* margin: 10px 20px 10px 20px; */
 }
 
 /* .card h2 {
@@ -65,7 +60,7 @@ main {
 
 @media screen and (min-width: 992px) {
     .card {
-        width: 23%;
+        width: 30%;
     }
 }
 
