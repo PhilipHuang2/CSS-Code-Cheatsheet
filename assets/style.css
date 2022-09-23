@@ -4,14 +4,13 @@
     --highlight-color: #CA1000;
     --background-color: #0e151a;
     --border-color:white;
-
-
 }
 
 * {
     box-sizing: border-box;
     background-color: var(--background-color);
     font-family: 'Bungee Spice', cursive;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 header {   
@@ -19,16 +18,21 @@ header {
 }
 
 main {
+    margin-top: 50px;
     display:flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    /* align-items: stretch; */
+    gap: 50px;
 }
 
 .card { 
     border-style: dashed;
     border-color: var(--border-color);
-    flex: 1 0 30%;
+    flex: 1 0 200px; 
     
-    /* padding: 5%; */
+    padding: 20px;
+  
     /* margin: 10px 20px 10px 20px; */
 }
 
@@ -69,3 +73,7 @@ main {
         width: 90%;
     }
 } */
+
+footer{ 
+    text-align: center;
+}
