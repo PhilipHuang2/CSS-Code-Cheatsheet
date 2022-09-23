@@ -29,9 +29,9 @@ main {
 .card { 
     border-style: dashed;
     border-color: var(--border-color);
-    flex: 1 0 200px; 
+    /* flex: 1 0 200px; 
     
-    padding: 20px;
+    padding: 20px; */
   
     /* margin: 10px 20px 10px 20px; */
 }
@@ -55,12 +55,7 @@ main {
     
     background-color: ;
 } */
-/* 
-@media screen and (min-width: 992px) {
-    .card {
-        width: 23%;
-    }
-}
+
 
 @media screen and (min-width: 768px) {
     .card {
@@ -68,11 +63,19 @@ main {
     }
 }
 
+@media screen and (min-width: 992px) {
+    .card {
+        width: 23%;
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
     .card {
         width: 90%;
     }
-} */
+}
 
 footer{ 
     text-align: center;
