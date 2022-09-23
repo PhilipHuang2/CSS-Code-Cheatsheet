@@ -33,14 +33,14 @@ main {
     border-color: var(--border-color);
 }
 
-/* .card h2 {
+.card h2 {
     border-style: dotted;
     border-color: var(--border-color);
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
     text-align: center;
-} */
+}
 
 /* .card p {
     
