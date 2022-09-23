@@ -2,13 +2,15 @@
     --main-color:#F2A600;
     --secondary-color: #E26800;
     --highlight-color: #CA1000;
-    --background-color: #0e151a;
+    --background-color-dark: #0e151a;
+    --background-color-light: #253744;
     --border-color:white;
+    background: linear-gradient(var(--background-color-dark), var(--background-color-light));
 }
 
 * {
     box-sizing: border-box;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     font-family: 'Bungee Spice', cursive;
 }
 
@@ -17,6 +19,7 @@ header {
 }
 
 main {
+    
     margin-top: 50px;
     display:flex;
     justify-content: space-around;
