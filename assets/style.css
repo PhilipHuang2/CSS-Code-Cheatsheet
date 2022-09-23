@@ -46,12 +46,15 @@ main {
     
 } */
 
-/* .card code {
+.card code pre {
     line-height: 24px;
-    width:90%;
-    
-    background-color: ;
-} */
+    font-size:medium;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
 
 
 @media screen and (min-width: 768px) {
@@ -65,7 +68,6 @@ main {
         width: 30%;
     }
 }
-
 
 
 @media screen and (max-width: 768px) {
