@@ -1,0 +1,23 @@
+:root {
+    --main-color:#F2A600;
+    --secondary-color: #E26800;
+    --highlight-color: #CA1000;
+    --background-color: #0e151a;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    font-family: 'Bungee Spice', cursive;
+}
+
+header {
+    
+    text-align: center;
+}
+
+main {
+
+}
