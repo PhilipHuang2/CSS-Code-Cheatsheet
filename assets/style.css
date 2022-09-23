@@ -3,6 +3,7 @@
     --secondary-color: #E26800;
     --highlight-color: #CA1000;
     --background-color: #0e151a;
+    --border-color:white;
 
 
 }
@@ -13,8 +14,7 @@
     font-family: 'Bungee Spice', cursive;
 }
 
-header {
-    
+header {   
     text-align: center;
 }
 
@@ -23,46 +23,49 @@ main {
     flex-wrap: wrap;
 }
 
-.card {
+.card { 
     border-style: dashed;
-    border-color: white;
-    padding: 20px;
-    margin: 10px 20px 10px 20px;
+    border-color: var(--border-color);
+    flex: 1 0 30%;
+    
+    /* padding: 5%; */
+    /* margin: 10px 20px 10px 20px; */
 }
 
-.card h2 {
+/* .card h2 {
     border-style: dotted;
-    border-color: white;
+    border-color: var(--border-color);
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
     text-align: center;
-}
+} */
 
-.card p {
+/* .card p {
     
-}
+} */
 
-.card code {
+/* .card code {
+    line-height: 24px;
     width:90%;
     
-    background-color: var(white);
-}
-
+    background-color: ;
+} */
+/* 
 @media screen and (min-width: 992px) {
     .card {
-        width: 33%;
+        width: 23%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .card {
-        width: 50%;
+        width: 40%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        width: 100%;
+        width: 90%;
     }
-}
+} */
