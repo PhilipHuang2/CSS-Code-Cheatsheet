@@ -54,17 +54,6 @@ h2:hover{
     text-align: center;
 }
 
-.card span {
-    line-height: 24px;
-    font-size:small;
-    margin-left: 10%;
-    user-select: all;
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
 
 .card pre {
     line-height: 24px;
@@ -76,6 +65,10 @@ h2:hover{
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+code::selection{
+    background-color: blue;
 }
 
 
